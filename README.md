@@ -1,18 +1,10 @@
-## Getting Started
+## Stationery Shop Sales and POS System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+CSE215L.13
+PROGRAMMING LANGUAGE II LAB
 
-## Folder Structure
+The project is a JavaFX application designed to simulate the operations of a stationery shop. The application can be used by 3 types of users, Admin, Salesperson and Customer. It allows the customer to purchase the product that they want, the salesperson to conduct the sell in a POS-like manner, and it gives the admin almost full control over the shop’s data.
 
-The workspace contains two folders by default, where:
+The Application was designed using an object oriented approach. The GUI was created using JavaFX and SceneBuilder. Separate controller classes were implemented for each view to handle user interactions and application logic.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Due to the restriction on using any database or ArrayList, normal arrays was used to store data and managing objects. The `DataStorage` class works as the central database of the entire program
