@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockCtl">
+   <children>
+      <Label text="Plumbum Stationery BD" />
+      <Label fx:id="loggedInAsLabel" text="Logged in as : Admin" />
+      <Label text="Product stock" />
+      <TableView fx:id="stockTable">
+        <columns>
+          <TableColumn fx:id="itemNameColumn" prefWidth="200.0" text="Item name" />
+          <TableColumn fx:id="stockLeftColumn" prefWidth="75.0" text="Stock left" />
+            <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" spacing="10.0">
+         <children>
+            <Button fx:id="goBackButton" mnemonicParsing="false" onAction="#handleGoBack" text="Go back to shop" />
+            <Button fx:id="checkSalesButton" mnemonicParsing="false" onAction="#handleCheckSales" text="Check Sales" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
