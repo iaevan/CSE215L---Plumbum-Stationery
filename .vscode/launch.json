@@ -15,7 +15,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "CSE215L - Shop App_a227fa64"
+            "projectName": "CSE215L - Shop App_a227fa64",
             "vmArgs": "--module-path \"E:/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]

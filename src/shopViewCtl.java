@@ -46,7 +46,7 @@ public class shopViewCtl {
         quantityField.setPromptText("Quantity");
         Button addToCartButton = new Button("Add to cart");
 
-        addToCartButton.setOnAction(e -> handleAddToCart(product, quantityField, index));
+        addToCartButton.setOnAction(_ -> handleAddToCart(product, quantityField, index));
 
         VBox productBox = new VBox(10, nameLabel, priceLabel, quantityField, addToCartButton);
 
