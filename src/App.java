@@ -20,7 +20,7 @@ public class App extends Application {
         shopViewController.setPrimaryStage(primaryStage);
 
         Scene scene = new Scene(root);
-        primaryStage.setTitle("Plumbum Stationery BD");
+        primaryStage.setTitle("Plumbum Stationery");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
